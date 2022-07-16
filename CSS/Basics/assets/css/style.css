@@ -1,0 +1,186 @@
+.cssColor1{
+    background-color: gray;
+}
+.cssColor2{
+    background-color: #87ceeb;
+}
+.cssColor3{
+    background-color: rgb(255, 255, 0);
+}
+.commonColor{
+    padding: 20px;
+    margin: 20px;
+    color: white;
+}
+/* TITTLE CLASS */
+.jumbotron{
+    background-color: rgb(104, 147, 40);
+    color:rgb(0, 54, 24);
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+}
+/* CSS FONT*/
+.cssFont{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 20px;
+    font-variant: small-caps;
+}
+/* CSS TEXT */
+.cssText{
+    text-align: justify;
+    line-height: 2;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    text-decoration: underline;
+}
+.cssText>p{
+    text-indent: 100px;
+}
+/* NAVIGATION BAR */
+.navBar{
+    background-color: #808080;
+}
+.navBar>ul{
+    list-style-type:none;
+    padding: 0%;
+    margin: 0%;
+}
+.navBar>ul>li{
+    display: inline-block;
+    padding: 20px;
+}
+.navBar>ul>li>a{
+    color: #fff;
+    text-decoration: none;
+}
+.navBar>ul>li:hover{
+    background-color: #fff;
+}
+.navBar>ul>li:hover a{
+    color: #808080;
+} 
+/* LIST MARKER POSITION */
+.listMarkerPosition>ol>li{
+    background-color: red;
+    padding: 20px;
+    margin-bottom: 20px;
+    list-style-position: inside;
+}
+.listMarkerPosition>ol>li>a{
+    color: white;
+    text-decoration: none;
+}
+.listMarkerPosition>ol>li::marker{
+    color: yellow;
+    font-size: 30px;
+}
+/* USING IMAGE AS BULLET POINT */
+.list-icon>ul>li{
+    list-style-image: url(../images/icon.png);
+}
+/* LIST SHORTHAND PROPERTY */
+.list-shorthand>ul>li{
+    /* list-style-type: decimal;
+    list-style-position: inside;
+    list-style-image: url(../images/icon.png); */
+    background-color: teal;
+    list-style: decimal inside  url(../images/icon.png);
+    padding: 20px;
+    margin-bottom: 20px;
+    color: #fff;
+}
+/* EMPTY-CELL TABLE */
+.empty-cell-table{
+    empty-cells: hide;
+}
+/* ODD-EVEN-TABLE */
+.odd-even-table, .odd-even-table th, .odd-even-table td{
+    border: 1px solid teal;
+    padding: 20px;
+    border-collapse: collapse;
+    color: #fff;
+}
+.odd-even-table th{
+    background-color: tan;
+}
+.odd-even-table tr:nth-child(odd){
+    background-color: grey;
+}
+.odd-even-table tr:nth-child(even){
+    background-color: lightgray;
+}
+.odd-even-table tr:hover{
+    background-color: lightseagreen;
+}
+.odd-even-table td{
+    height: 50px;
+    vertical-align: top;
+}
+.odd-even-table caption{
+    color: red;
+    font-weight: bold;
+    caption-side: bottom;
+}
+/* TABLE LAYOUT */
+.layout-table{
+    height: 10px;
+    width: 300px;
+    table-layout: fixed;
+}
+.layout-table td, .layout-table th{
+    overflow: auto;
+}
+/* NAVIGATION BAR */
+header{
+    background-color: #808080;
+}
+header>nav>ul{
+    list-style-type: none;
+    float: right;
+}
+/* *{
+    padding: 0%;
+    margin: 0%;
+} */
+header>nav>ul>li{
+    display: inline-block;
+    padding: 25px;
+}
+header>nav>ul>li:hover{
+    background-color: #fff;
+}
+header>nav>ul>li:hover a{
+    color: #808080;
+}
+header>nav>ul>li>a{
+    color: #fff;
+    text-decoration: none;
+}
+header>nav>img{
+    height: 64px;
+}
+/* BNNER CODE */
+.banner1{
+    background-color: skyblue;
+}
+.common-banner{
+    height: 400px;
+    padding: 30px;
+}
+.banner1>h1, .banner2>h1{
+    color: #fff;
+    text-align: center;
+    font-size: 60px;
+}
+.banner1>h1:hover, .banner2>h1:hover{
+    color: gray;
+}
+.banner2{
+    background-image: url(../images/desktop.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
